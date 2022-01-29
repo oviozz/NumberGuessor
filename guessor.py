@@ -9,8 +9,7 @@ def intro():
 
 def checking():
     random_number = random.randint(1, limit_counter)
-    print(random_number)
-
+    
     print('---------------------------------------------------------------------')
     print(f'I am thinking of a number between 1 and {limit_counter}!' + '\n')
     print('Guess a number')
